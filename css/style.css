@@ -174,8 +174,8 @@ body{
 
 .text h2{
    font-size: 2rem;
-    color: white;
-    font-weight: 600;
+   color: white;
+   font-weight: 600;
 }
 .text p{
    font-size: 17px;
@@ -188,4 +188,105 @@ body{
     background-color: orangered;
     border-radius: 50%;
 }
-/* Header Style End */
+
+
+/* main_container_one*/
+.main_container_one{
+width: 80%;
+margin: 0 auto;
+border: 1px solid tomato;
+text-align: center;
+}
+.main_container_one h1{
+    font-size: 3rem;
+    color: white;
+    font-weight: 600;
+    line-height: 20px;
+}
+.main_container_one h2{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+    line-height: 20px;
+}
+.main_container_one p{
+    font-size: 17px;
+    color: #9e9999;
+    line-height: 25px;
+}
+
+.habits_img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    margin-top: 50px;
+    width: 180px;
+    height: 110px; 
+}
+.card h2{
+    line-height: 0px;
+}
+.card p{
+    line-height: 20px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid gray;
+    padding: 2px;
+}
+/* Run Extra */
+.run_extra{
+    border-radius: 15px;
+    background-color: #312f2f;
+    position: relative;
+    margin-top: 220px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+}
+.run_text{
+
+    padding: 15px;
+    width: 40%;
+}
+.run_text h3{
+    text-align: left;
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    position: relative;
+    margin-top: 0;
+    
+}
+
+.btn_join_now{
+    width: 200px;
+    background-color: orangered;
+    height: 50px;
+    font-size: 19px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 0;
+    position: relative;
+    margin-top: 20px;
+}
+
+.run_img{
+    width: 400px;
+    padding: 15px;
+}
+
+.run_img img{
+    width: 100%;
+    border-radius: 10px;
+
+}
