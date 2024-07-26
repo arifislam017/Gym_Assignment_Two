@@ -34,7 +34,6 @@ body{
 
 /* Header Style start */
 .navbar{
-    border: 1px solid green;
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -112,7 +111,6 @@ body{
 }
 /* navbar_banner */
 .navbar_banner{
-    border: 1px solid red;
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -194,7 +192,6 @@ body{
 .main_container_one{
 width: 80%;
 margin: 0 auto;
-border: 1px solid tomato;
 text-align: center;
 }
 .main_container_one h1{
@@ -289,4 +286,96 @@ text-align: center;
     width: 100%;
     border-radius: 10px;
 
+}
+/* Container three */
+.container_three{
+    width: 80%;
+    margin: 0 auto;
+}
+.container_three h1{
+    text-align: left;
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.container_three p{
+    font-size: 17px;
+    color: #9e9999;
+    line-height: 25px;
+}
+/* grid layer style */
+.grid_layer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.grid_one{
+    background:linear-gradient(rgba(253, 4, 4, 0.4),rgba(253, 4, 4, 0.4)), url('../images/exercise1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    
+}
+.grid_two{
+    background:linear-gradient(rgba(236, 253, 4, 0.4),rgba(236, 253, 4, 0.4)), url('../images/exercise2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.grid_three{
+    background:linear-gradient(rgba(253, 4, 4, 0.4),rgba(253, 4, 4, 0.4)), url('../images/exercise3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.grid_four{
+    background:linear-gradient(rgba(33, 253, 4, 0.4),rgba(33, 253, 4, 0.4)), url('../images/exercise4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.grid_five{
+    background:linear-gradient(rgba(4, 50, 253, 0.4),rgba(4, 50, 253, 0.4)), url('../images/exercise5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.grid_six{
+    background:linear-gradient(rgba(33, 253, 4, 0.4),rgba(33, 253, 4, 0.4)), url('../images/exercise6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+.Grid_text{
+    background-color:rgba(83, 79, 79, 0.8) ;
+    height: 28px;
+    width: 120px;
+    text-align: center;
+    border-radius: 15px;
+    backdrop-filter: blur(2px);
+    margin: 250 auto;
+    color: white;
+    font-size: 17px;
+    margin-left: 10px;
+}
+.Grid_text1{
+    background-color:rgba(83, 79, 79, 0.8) ;
+    height: 28px;
+    width: 120px;
+    text-align: center;
+    border-radius: 15px;
+    backdrop-filter: blur(2px);
+    margin: 250 auto;
+    color: white;
+    font-size: 17px;
+    margin-top: 160px;
+    margin-left: 10px;
+   
 }
