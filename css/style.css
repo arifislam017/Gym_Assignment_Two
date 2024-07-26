@@ -1,18 +1,191 @@
 /* font start */
 @import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Meow+Script&display=swap');
-.meow-script-regular {
+.meow-regular {
     font-family: "Meow Script", cursive;
     font-weight: 400;
     font-style: normal;
   }
 
-  .inter-uniquifier-font {
+  .inter_font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight:400;
     font-style: normal;
-    font-variation-settings:
-      "slnt" 0;
+    font-variation-settings:"slnt" 0;
   }
+  
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(31, 30, 29);
+}
   /* font End */
+  /* Share Style */
+  .paragraph_style{
+    font-size: 17px;
+    line-height: 25px;
+    color: #888585;
+    text-align: justify;
+  }
+
+/* Header Style start */
+.navbar{
+    border: 1px solid green;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_logo h1{
+    font-weight: 700;
+    font-size: 2.2rem;
+    font-style: italic;
+    color: orangered;
+}
+.nav_menubar{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: space-between;
+    width: 450px;
+    height: 43px;
+    border-radius: 20px;
+    border: 0.2px solid #888585;
+}
+
+.nav_menubar a{
+ text-decoration: none;
+ padding: 10px;
+ font-size: 17px;
+ font-weight: 400;
+ color: white;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 3px;
+ height: 35px;
+}
+.nav_menubar a:hover{
+    background-color: orangered;
+    color: white;
+    border-radius: 20px;
+}
+.active{
+    background-color: orangered;
+    color: white;
+    border-radius: 20px;
+    width: 80px;
+    height: 35px;
+}
+.btn_bg{
+    width: 200px;
+    background-color: orangered;
+    height: 50px;
+    font-size: 19px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.btn_no_bg{
+    width: 200px;
+    border: 1px solid ;
+    height: 50px;
+    font-size: 19px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 50px;
+    border: 1px solid white;
+    margin: 0px 0px 0px 5px;
+    background: transparent;
+}
+/* navbar_banner */
+.navbar_banner{
+    border: 1px solid red;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_banner_text{
+    width: 40%;
+}
+.nav_banner_text h1{
+ font-size: 4.5rem;
+ font-weight: 800;
+ line-height: 6rem;
+ color: white;
+}
+.shape_style{
+    font-weight: bold;
+}
+
+.navbar_banner_img{
+    width: 40%;
+}
+
+.navbar_banner_img img{
+    width: 100%; 
+}
+.blur_bg_bottom{
+    display: flex;
+    background-color:rgba(83, 79, 79, 0.4) ;
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+    align-items: center;
+    color: white;
+    justify-content: center;
+    position: absolute;
+    top: 630px;
+    left: 680px;
+}
+.blur_bg_top{
+    text-align: left;
+    display: flex;
+    background-color:rgba(83, 79, 79, 0.4) ;
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+    align-items: center;
+    color: white;
+    justify-content: center;
+    position: absolute;
+    top: 340px;
+    left: 1015px;
+}
+.text{
+    margin-left: 20px;
+    line-height: 10px;
+}
+
+.text h2{
+   font-size: 2rem;
+    color: white;
+    font-weight: 600;
+}
+.text p{
+   font-size: 17px;
+   color: #9e9999;
+    
+}
+.square{
+    width: 45px;
+    height: 45px;
+    background-color: orangered;
+    border-radius: 50%;
+}
+/* Header Style End */
