@@ -389,6 +389,7 @@ text-align: center;
 .bg_form{
     background-color: #312f2f;
     width: 100%;
+    height: 450px;
 }
 .container_three{
     width: 80%;
@@ -400,9 +401,14 @@ text-align: center;
 table{
     border-collapse: collapse;
     border: 1px solid gainsboro;
-    width: 330px;
+    width: 350px;
 }
-.table h1, th{
+.table h1{
+  color: white;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.table th{
   color: white;
 }
 tr,td,th{
@@ -420,6 +426,8 @@ tr,td{
 }
 .form h1{
   color: white;
+  font-size: 2rem;
+  font-weight: 800;
 }
 .form p{
     color: #9e9999;
@@ -446,4 +454,103 @@ select{
     border-radius: 10px;
     border: none;
     font-size: 17px;
+}
+/* Meet Our Team Style */
+.container_four{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.container_four h1{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.container_four p{
+    color: #9e9999;
+    font-size: 17px;
+    text-align: center;
+}
+/* Meet our Team Image */
+.grid_layer_two{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: #888585;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+.grid_one{
+    background:url('../images/trainer1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    opacity: 80%;
+    
+}
+.grid_two{
+    background:url('../images/trainer2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    opacity: 80%;
+}
+.grid_three{
+    background:url('../images/trainer3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    opacity: 80%;
+}
+.grid_four{
+    background:url('../images/trainer4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    opacity: 80%;
+}
+.grid_five{
+    background:url('../images/trainer5.png');
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    opacity: 80%;
+
+}
+.grid_six{
+    background:url('../images/trainer6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    opacity: 80%;
+}
+.Grid_text_two{
+    line-height: 10px;
+    height: 28px;
+    width: 220px;
+    text-align: left;
+    border-radius: 15px;
+    backdrop-filter: blur(2px);
+    color: white;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 230px;
+
+}
+.Grid_text_two p{
+   text-align: left;
 }
