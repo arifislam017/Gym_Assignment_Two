@@ -89,7 +89,7 @@ body{
     font-size: 19px;
     color: white;
     border: none;
-    border-radius: 20px;
+    border-radius: 30px;
     text-align: center;
     cursor: pointer;
     margin-top: 50px;
@@ -101,7 +101,7 @@ body{
     font-size: 19px;
     color: white;
     border: none;
-    border-radius: 20px;
+    border-radius: 30px;
     text-align: center;
     cursor: pointer;
     margin-top: 50px;
@@ -269,7 +269,7 @@ text-align: center;
     font-size: 19px;
     color: white;
     border: none;
-    border-radius: 20px;
+    border-radius: 30px;
     text-align: center;
     cursor: pointer;
     margin-left: 0;
@@ -287,18 +287,18 @@ text-align: center;
     border-radius: 10px;
 
 }
-/* Container three */
-.container_three{
+/* Container two */
+.container_two{
     width: 80%;
     margin: 0 auto;
 }
-.container_three h1{
+.container_two h1{
     text-align: left;
     color: white;
     font-size: 3rem;
     font-weight: 700;
 }
-.container_three p{
+.container_two p{
     font-size: 17px;
     color: #9e9999;
     line-height: 25px;
@@ -378,4 +378,72 @@ text-align: center;
     margin-top: 160px;
     margin-left: 10px;
    
+}
+/* Bmi Calculator */
+.bmi_calculator{
+    width: 60%;
+    margin-top: 80px;
+    margin: 0 auto;
+}
+/* Form Style */
+.bg_form{
+    background-color: #312f2f;
+    width: 100%;
+}
+.container_three{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid gainsboro;
+    width: 330px;
+}
+.table h1, th{
+  color: white;
+}
+tr,td,th{
+    border: 1px solid gainsboro;
+    text-align: left;
+    padding: 15px;
+}
+tr,td{
+    color: #9e9999;
+}
+
+.form{
+    width: 100%;
+    margin-left: 150px;
+}
+.form h1{
+  color: white;
+}
+.form p{
+    color: #9e9999;
+}
+#gender,
+#factor{
+    color: #9e9999;;
+}
+input[type=text]{
+    background:linear-gradient(rgba(1, 1, 1, 0.7),rgba(1, 1, 1, 0.7)), url('../images/exercise6.jpg');
+    width: 45%;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    
+}
+select{
+    background:linear-gradient(rgba(1, 1, 1, 0.7),rgba(1, 1, 1, 0.7)), url('../images/exercise6.jpg');
+    width: 45%;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
 }
