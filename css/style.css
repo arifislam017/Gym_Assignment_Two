@@ -459,6 +459,7 @@ select{
 .container_four{
     width: 80%;
     margin: 0 auto;
+    height: 850px;
     
 }
 .container_four h1{
@@ -477,13 +478,13 @@ select{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    background-color: #888585;
+    background-color: #312f2f;
     padding: 20px;
     border-radius: 15px;
     margin-top: 40px;
 }
 
-.grid_one{
+.trainer_one{
     background:url('../images/trainer1.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -493,7 +494,7 @@ select{
     opacity: 80%;
     
 }
-.grid_two{
+.trainer_two{
     background:url('../images/trainer2.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -502,7 +503,7 @@ select{
     border-radius: 20px;
     opacity: 80%;
 }
-.grid_three{
+.trainer_three{
     background:url('../images/trainer3.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -511,7 +512,7 @@ select{
     border-radius: 20px;
     opacity: 80%;
 }
-.grid_four{
+.trainer_four{
     background:url('../images/trainer4.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -520,7 +521,7 @@ select{
     border-radius: 20px;
     opacity: 80%;
 }
-.grid_five{
+.trainer_five{
     background:url('../images/trainer5.png');
     background-size: cover;
     width: 100%;
@@ -529,7 +530,7 @@ select{
     opacity: 80%;
 
 }
-.grid_six{
+.trainer_six{
     background:url('../images/trainer6.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -553,4 +554,41 @@ select{
 }
 .Grid_text_two p{
    text-align: left;
+}
+/* Footer */
+footer{
+    width: 100%;
+    background-color: #312f2f;
+}
+.footer_container{
+    width:80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_container,
+.div_end p{
+    color: #9e9999;
+    font-size: 17px;
+}
+.left_side,
+.middle_side,
+.right_side{
+    width: 26.66%;
+}
+.footer_logo_name{
+    color: orangered;
+    font-size: 3rem;
+    
+}
+.footer_h_one{
+    color: white;
+    font-size: 3rem;
+
+}
+.div_end{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    height: 60px;
 }
