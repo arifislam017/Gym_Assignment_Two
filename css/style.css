@@ -555,6 +555,83 @@ select{
 .Grid_text_two p{
    text-align: left;
 }
+/* Registration form */
+.container_five{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.reg_form{
+    background-color: #312f2f;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 50%;
+}
+.user{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.reg{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+#form_login,
+#form_login1{
+    width: 100%;
+    padding: 7px;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    border-radius: 0;
+    font-size: 17px;
+    margin: 5px;
+}
+input[type=password]{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    border-radius: 0;
+    font-size: 17px;
+    margin: 5px;
+}
+#text_color{
+    font-size: 17px;
+    color: #9e9999;
+    text-decoration: none;
+}
+input[type=checkbox]{
+    margin: 15px 7px;
+   
+}
+.reg_btn{
+    width: 100%;
+    background-color: orangered;
+    padding: 7px;
+    border: none;
+    font-size: 18px;
+    margin: 5px;
+    border-radius: 8px;
+    color: white;
+    height: 35px;
+    text-align: center;
+}
+.gym_video{
+    margin: 5px;
+    border-top-left-radius: 10px;
+    border: 5px solid #000;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+   
+    height: 400px;
+}
+
 /* Footer */
 footer{
     width: 100%;
