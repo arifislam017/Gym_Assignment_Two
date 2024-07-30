@@ -26,10 +26,11 @@ body{
   /* font End */
   /* Share Style */
   .paragraph_style{
+    width: 100%;
     font-size: 17px;
     line-height: 25px;
     color: #888585;
-    text-align: justify;
+    text-align: left;
   }
 
 /* Header Style start */
@@ -39,6 +40,23 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+/* menubar */
+.container_one_pra{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.menubar{
+    display: none;
+}
+.menu{
+    margin: 2px;
+    width: 35px;
+    height: 5px;
+    background-color:white;
+
 }
 
 .nav_logo h1{
@@ -188,11 +206,11 @@ body{
 }
 
 
-/* main_container_one*/
+/*Change Your Habits Start main_container_one */
 .main_container_one{
-width: 80%;
-margin: 0 auto;
-text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
 .main_container_one h1{
     font-size: 3rem;
@@ -213,6 +231,7 @@ text-align: center;
 }
 
 .habits_img{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -379,17 +398,17 @@ text-align: center;
     margin-left: 10px;
    
 }
-/* Bmi Calculator */
+/* Bmi Calculator*/
 .bmi_calculator{
     width: 60%;
     margin-top: 80px;
     margin: 0 auto;
 }
-/* Form Style */
+/* form & Calculate Container three*/
 .bg_form{
     background-color: #312f2f;
     width: 100%;
-    height: 450px;
+
 }
 .container_three{
     width: 80%;
@@ -401,7 +420,7 @@ text-align: center;
 table{
     border-collapse: collapse;
     border: 1px solid gainsboro;
-    width: 350px;
+    width: 320px;
 }
 .table h1{
   color: white;
@@ -421,9 +440,12 @@ tr,td{
 }
 
 .form{
-    width: 100%;
     margin-left: 150px;
 }
+.form_responsive input, select{
+    margin: 5px 5px 5px 0px;
+}
+
 .form h1{
   color: white;
   font-size: 2rem;
@@ -440,7 +462,7 @@ input[type=text]{
     background:linear-gradient(rgba(1, 1, 1, 0.7),rgba(1, 1, 1, 0.7)), url('../images/exercise6.jpg');
     width: 45%;
     padding: 15px;
-    margin: 5px;
+   
     border-radius: 10px;
     border: none;
     font-size: 17px;
@@ -450,16 +472,33 @@ select{
     background:linear-gradient(rgba(1, 1, 1, 0.7),rgba(1, 1, 1, 0.7)), url('../images/exercise6.jpg');
     width: 45%;
     padding: 15px;
-    margin: 5px;
+   
     border-radius: 10px;
     border: none;
     font-size: 17px;
+}
+.calculate_btn{
+   
+    width: 200px;
+    background-color: orangered;
+    height: 50px;
+    font-size: 19px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 0;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
 /* Meet Our Team Style */
 .container_four{
     width: 80%;
     margin: 0 auto;
-    height: 850px;
+    margin-bottom: 40px;
     
 }
 .container_four h1{
@@ -555,7 +594,7 @@ select{
 .Grid_text_two p{
    text-align: left;
 }
-/* Registration form */
+/* Registration form  Unique section*/
 .container_five{
     display: flex;
     width: 80%;
@@ -628,7 +667,6 @@ input[type=checkbox]{
     border: 5px solid #000;
     -moz-border-radius: 15px;
     border-radius: 15px;
-   
     height: 400px;
 }
 
@@ -668,4 +706,176 @@ footer{
     margin: 0 auto;
     text-align: center;
     height: 60px;
+}
+/* Media Query */
+@media screen and (max-width:576px) {
+    
+    .nav_menubar{
+        display: none;
+    }
+    .menubar{
+        display: block;
+    }
+    .navbar_banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav_banner_text h1{
+        font-size:2.5rem;
+        width: 230px;
+        line-height: 40px;
+    }
+    .paragraph_style{
+        text-align: left;
+        width: 290px;
+    }
+
+    .nav_button_responsive{
+        width: 300px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+       
+        
+    }
+    .btn_bg{
+        position: relative;
+        margin-top: -0.1px;
+    }
+
+    .navbar_banner_img{
+        width: 100%;
+    }
+    .navbar_banner_img img{
+        width: 100%;
+    }
+
+    .blur_bg_bottom{
+        position: absolute;
+        left: 35px;
+        top: 800px;
+        height: 80px;
+        width: 190px;
+    }
+
+    .blur_bg_top{
+        position: absolute;
+        left: 200px;
+        top: 650px;
+        height: 80px;
+        width: 170px;
+       
+    }
+    .text h2{
+        font-size: 1rem;
+    }
+    .text p{
+        font-size: 1rem;
+        line-height: 10px;
+        line-height: 20px;
+    }
+    /* Change your Habits */
+    .main_container_one h1{
+        line-height: 60px;
+    }
+
+    .container_one_pra{
+        width: 100%;
+       text-align: left;
+    }
+
+    .habits_img{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    
+    }
+    .card{
+        height: 230px;
+        margin-bottom: 70px;
+    }
+    .run_extra{
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .run_text{
+        width: 100%;
+    }
+    .run_img{
+        width: 100%;
+    }
+    
+    /* Trainings and Exercises */
+    .grid_layer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .bmi_calculator{
+        width: 100%;
+    }
+    .bmi_calculator h1{
+        font-size: 2rem;
+    }
+    /* form & Calculate */
+    .bg_form{
+        width: 100%;
+    }
+    .container_three{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form{
+     margin-left: 0px;
+     padding: 0;
+     margin: 0;
+    }
+    input[type=text]{
+        width: 46%;
+    }
+    
+    #gender{
+        width: 46%;
+    }
+    #factor{
+        width: 96%;
+    }
+    .calculate_btn{
+        border-radius: 10px;
+    }
+    /* Meet Out Team */
+    .grid_layer_two{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* Registration form and videoUnique section */
+
+    .container_five{
+        display: flex;
+        flex-direction: column;
+    }
+    .reg_form{
+        width: 100%;
+    }
+    .gym_video{
+        width: 100%;
+        height: 250px;
+    }
+    .gym_video iframe{
+        width: 100%;
+        height: 240px;
+    }
+
+    /* footer section */
+    
+    .footer_container{
+        display: flex;
+        flex-direction: column;  
+    }
+    .left_side,
+    .middle_side,
+    .right_side{
+        width: 100%;
+    }
 }
