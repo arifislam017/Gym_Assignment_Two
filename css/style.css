@@ -1,11 +1,18 @@
 /* font start */
 @import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Meow+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@100..900&family=Meow+Script&display=swap');
 .meow-regular {
     font-family: "Meow Script", cursive;
     font-weight: 400;
     font-style: normal;
   }
+
+  .great-vibes {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }  
 
   .inter_font {
     font-family: "Inter", sans-serif;
@@ -148,11 +155,11 @@ body{
  color: white;
 }
 .shape_style{
-    font-family: myFont;
+    font-size: 4.5rem;
     color: orangered;
-    font-weight: bold;
-    font-size: 72px;
-    font-weight: 800;
+    line-height: 30px;
+    font-weight: bolder;
+   
 }
 
 
@@ -729,12 +736,13 @@ footer{
     }
     .nav_banner_text h1{
         font-size:2.5rem;
-        width: 230px;
-        line-height: 40px;
+        width: 260px;
+        line-height: 60px;
     }
+    
     .paragraph_style{
         text-align: left;
-        width: 290px;
+        width: 320px;
     }
 
     .nav_button_responsive{
