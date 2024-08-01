@@ -14,6 +14,10 @@
     font-style: normal;
     font-variation-settings:"slnt" 0;
   }
+  @font-face{
+    font-family: myFont;
+    src: url(../font/Miama.ttf);
+  }
   
 *{
     box-sizing: border-box;
@@ -144,8 +148,13 @@ body{
  color: white;
 }
 .shape_style{
+    font-family: myFont;
+    color: orangered;
     font-weight: bold;
+    font-size: 72px;
+    font-weight: 800;
 }
+
 
 .navbar_banner_img{
     width: 40%;
