@@ -469,9 +469,8 @@ tr,td{
 }
 input[type=text]{
     background:linear-gradient(rgba(1, 1, 1, 0.7),rgba(1, 1, 1, 0.7)), url('../images/exercise6.jpg');
-    width: 45%;
-    padding: 15px;
-   
+    width: 48%;
+    padding: 10px;
     border-radius: 10px;
     border: none;
     font-size: 17px;
@@ -479,9 +478,8 @@ input[type=text]{
 }
 select{
     background:linear-gradient(rgba(1, 1, 1, 0.7),rgba(1, 1, 1, 0.7)), url('../images/exercise6.jpg');
-    width: 45%;
-    padding: 15px;
-   
+    width: 48%;
+    padding: 10px;
     border-radius: 10px;
     border: none;
     font-size: 17px;
