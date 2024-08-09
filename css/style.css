@@ -431,12 +431,18 @@ body{
     margin: 0 auto;
     margin-top: 80px;
     display: flex;
+   
 }
 
+.table{
+    width: 100%;
+}
 table{
     border-collapse: collapse;
     border: 1px solid gainsboro;
-    width: 320px;
+    width: 80%;
+    
+    
 }
 .table h1{
   color: white;
@@ -449,17 +455,13 @@ table{
 tr,td,th{
     border: 1px solid gainsboro;
     text-align: left;
-    padding: 15px;
+    padding: 10px;
 }
 tr,td{
     color: #9e9999;
 }
-
 .form{
-    margin-left: 150px;
-}
-.form_responsive input, select{
-    margin: 5px 5px 5px 0px;
+    width: 100%;
 }
 
 .form h1{
@@ -470,29 +472,35 @@ tr,td{
 .form p{
     color: #9e9999;
 }
-#gender,
-#factor{
-    color: #9e9999;;
+.fact{
+    color: #726d6d;;
 }
+#factor{
+    width: 100%;
+}
+
 input[type=text]{
     background:linear-gradient(rgba(1, 1, 1, 0.7),rgba(1, 1, 1, 0.7)), url('../images/exercise6.jpg');
-    width: 48%;
+    width: 49.5%;
     padding: 10px;
     border-radius: 10px;
     border: none;
     font-size: 17px;
+    margin: 0px;
+    margin-top: 5px;
     
 }
 select{
     background:linear-gradient(rgba(1, 1, 1, 0.7),rgba(1, 1, 1, 0.7)), url('../images/exercise6.jpg');
-    width: 48%;
+    width: 49.5%;
     padding: 10px;
     border-radius: 10px;
     border: none;
     font-size: 17px;
+    margin: 0px;
+    margin-top: 5px;
 }
 .calculate_btn{
-   
     width: 200px;
     background-color: orangered;
     height: 50px;
@@ -840,21 +848,28 @@ footer{
         display: flex;
         flex-direction: column;
     }
-    
+    table{
+        width: 100%;
+    }
+    tr,td,th{
+        
+        text-align: center;
+    }
+        
     .form{
      margin-left: 0px;
      padding: 0;
      margin: 0;
     }
     input[type=text]{
-        width: 46%;
+        width: 49%;
     }
     
     #gender{
-        width: 46%;
+        width: 49%;
     }
     #factor{
-        width: 96%;
+        width: 100%;
     }
     .calculate_btn{
         border-radius: 10px;
@@ -864,7 +879,8 @@ footer{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-    /* Registration form and videoUnique section */
+
+    /* Registration form and video Unique section */
 
     .container_five{
         display: flex;
